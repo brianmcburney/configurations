@@ -10,7 +10,7 @@ set expandtab		" convert <TAB> key-presses to spaces
 set autoindent		" copy indent from current line when starting a new line
 set smartindent		" even better autoindent (e.g. add indent after '{')
 
-" Search settings
+" search settings
 set incsearch       " search as characters are entered
 set hlsearch        " highlight matches
 
