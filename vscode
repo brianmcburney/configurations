@@ -8,19 +8,19 @@
         "**/.DS_Store": true,
         "**/*.pyc": true
     },
-    "[Vue]": {
+    "[vue]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2,
         "editor.autoIndent": true
     },
-    "[Javascript]": {
+    "[html]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2,
         "editor.autoIndent": true
     },
-    "[HTML]": {
+    "[javascript]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2,
-        "editor.autoIndent": true
+        "editor.autoIndent": true        
     }
 }
