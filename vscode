@@ -23,5 +23,7 @@
     },
     "[html]": {
         "editor.tabSize": 2
-    }
+    },
+    "json.schemas": [],
+    "git.autofetch": true
 }
