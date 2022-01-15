@@ -9,12 +9,7 @@
         "**/*.pyc": true
     },
     "editor.insertSpaces": true,
-    "editor.autoIndent": true,
-    "files.trimTrailingWhitespace": true,
-    "[python]": {
-        "editor.rulers": [88],
-        "editor.tabSize": 4
-    },
+    "editor.autoIndent": "full",
     "[vue]": {
         "editor.tabSize": 2
     },
@@ -24,6 +19,48 @@
     "[html]": {
         "editor.tabSize": 2
     },
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "FiraCode-Retina, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "rust-client.enableMultiProjectSetup": false,
+    "[rust]": {
+        "editor.defaultFormatter": "statiolake.vscode-rustfmt"
+    },
+    "[python]": {
+        "editor.rulers": [
+            88
+        ],
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "black",
+    "python.linting.enabled": true,
+    "python.linting.flake8Path": "flake8",
+    "python.linting.flake8Enabled": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": "{{put-password-here}}"
+        }
+    ],
+    "files.trimTrailingWhitespace": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "files.insertFinalNewline": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "git.confirmSync": false,
+    "git.autofetch": true,
     "json.schemas": [],
-    "git.autofetch": true
+    "aws.profile": "profile:default"
 }
